@@ -13,8 +13,6 @@ jobs:
       # Job for Minify-JS
       - name: Web minifier
         uses: zugazagoitia/minify-js@v0.2
-        with:
-          directory: '/' # (OPTIONAL)
           
       # Auto-commit to repository
       - uses: stefanzweifel/git-auto-commit-action@v4
