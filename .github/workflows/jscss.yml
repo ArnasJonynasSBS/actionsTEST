@@ -1,8 +1,5 @@
 name: Minify js/css files
-on: 
-  push:
-    branches:  
-      - 'TIV-8.0.0'
+on:  [push]
 
 jobs:
   build:
