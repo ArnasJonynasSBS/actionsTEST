@@ -1,5 +1,8 @@
-name: Minify Workflow
-on: [push]
+name: Minify js/css
+on: 
+  push:
+    branches:
+      - TIV-8.0.0
 
 jobs:
   build:
