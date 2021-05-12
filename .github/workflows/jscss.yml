@@ -1,5 +1,7 @@
-name: Minify js/css files
-on:  [push]
+name: Minify Workflow
+on:
+  push:
+    branches: [ main ]
 
 jobs:
   build:
