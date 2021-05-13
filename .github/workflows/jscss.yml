@@ -13,7 +13,7 @@ jobs:
           ref: ${{ github.ref }}
 
       - name: Minify Action
-        uses: ArnasJonynasSBS/minify-action@v1.0.6
+        uses: ArnasJonynasSBS/minify-action@v1.0.7
 
       # Auto-commit to repository
       - uses: stefanzweifel/git-auto-commit-action@v4
