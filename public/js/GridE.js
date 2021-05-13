@@ -5,7 +5,7 @@
  */
 
 /** ******  left menu  *********************** **/
-$(function () {
+$(function (     ) {
     $('#menu_toggle').click(function () {
         if ($('body').hasClass('nav-md')) {
             $.cookie("menu", "nav-sm", { expires: 14, path: '/' });
