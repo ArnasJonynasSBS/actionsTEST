@@ -1,7 +1,7 @@
 name: Minify Workflow
 on: 
    push:
-    branches: [ TIV-8.0.0 ]
+    branches: [ TIV-8.0.1 ]
 
 jobs:
   build:
